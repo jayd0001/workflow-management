@@ -1,12 +1,48 @@
-# React + Vite
+# Workflow Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![ReactFlow](https://img.shields.io/badge/reactflow-%2307405e.svg?style=for-the-badge&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-Currently, two official plugins are available:
+A visual workflow management system built with React and ReactFlow that allows users to create, configure, and manage complex workflows with different node types.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Drag-and-drop workflow builder**
+- **Multiple node types**:
+  - Start Node (workflow entry point)
+  - Action Node (perform operations)
+  - Decision Node (conditional branching)
+  - Terminal Node (workflow endpoints)
+- **Node configuration** with custom parameters
+- **Visual editing** with real-time preview
+- **Toggle between Edit and View modes**
+- **Responsive design** with smooth animations
+- **Customizable styling** using styled-components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/workflow-management.git
+   cd workflow-management
+
+## Project Structure
+
+workflow-management/
+├── src/
+│   ├── components/
+│   │   ├── AddNodePanel/            # Panel for adding new nodes
+│   │   ├── BaseNode/                # Base node component with common functionality
+│   │   ├── NodeConfigDrawer/        # Configuration panel for nodes
+│   │   ├── nodes/                   # Specific node implementations
+│   │   │   ├── ActionNode/          # Action node component
+│   │   │   ├── DecisionNode/        # Decision node component
+│   │   │   ├── StartNode/           # Start node component
+│   │   │   └── TerminalNode/        # Terminal node component
+│   │   └── WorkflowManager/         # Main workflow management component
+│   ├── constants/                   # Application constants and initial data
+│   └── App.jsx                      # Main application component
+├── public/
+└── package.json                     # Project dependencies and scripts
