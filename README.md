@@ -30,6 +30,7 @@ A visual workflow management system built with React and ReactFlow that allows u
 
 ## Project Structure
 
+```
 workflow-management/
 ├── src/
 │   ├── components/
@@ -46,3 +47,4 @@ workflow-management/
 │   └── App.jsx                      # Main application component
 ├── public/
 └── package.json                     # Project dependencies and scripts
+```
