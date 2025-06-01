@@ -28,6 +28,18 @@ A visual workflow management system built with React and ReactFlow that allows u
    git clone https://github.com/your-username/workflow-management.git
    cd workflow-management
 
+## Implementation Reference 
+
+![image](https://github.com/user-attachments/assets/25a801c3-2cf3-4efe-accf-2843c36aa74d)
+
+
+![image](https://github.com/user-attachments/assets/2bfd5838-d20a-4e3b-a6eb-8cc4197c606f)
+
+
+![image](https://github.com/user-attachments/assets/28192d3a-121c-4657-b517-2e5cd08625bf)
+
+
+
 ## Project Structure
 
 ```
